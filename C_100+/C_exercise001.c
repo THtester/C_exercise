@@ -7,11 +7,11 @@ int main()
 {
 	int i,j,k;
 	printf("\n");
-	for (int i = 1; i < 5; i++)
+	for (i = 1; i < 5; i++)
 	{
-		for (int j = 1; j < 5; j++)
+		for (j = 1; j < 5; j++)
 		{
-			for (int k = 0; k < 5; k++)
+			for (k = 0; k < 5; k++)
 			{
 				if (i != k && i != j && j != k)
 				{
